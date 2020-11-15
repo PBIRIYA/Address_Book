@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace AddressBookProblem
 {
-    class Program
+     class Program
     {
         static void Main(string[] args)
         {
@@ -44,7 +46,12 @@ namespace AddressBookProblem
                         repo.RetrieveContactByCityOrState(city, state);
                         break;
                     case 5:
-                        Contact newContact = new Contact();
+                        Console.WriteLine("Enter Number of contacts to be added");
+                        int noOfContactAdded = Convert.ToInt32(Console.ReadLine());
+                        List<Contact> list = new List<Contact>();
+                        while (noOfContactAdded >= 1)
+                        {
+                            Contact newContact = new Contact();
                         Console.WriteLine("Enter the person details to be added in the address book");
                         Console.WriteLine("First Name");
                         newContact.FirstName = Console.ReadLine();
@@ -66,8 +73,11 @@ namespace AddressBookProblem
                         newContact.RelationType = Console.ReadLine();
                         Console.WriteLine("Date added");
                         newContact.DateAdded = Convert.ToDateTime(Console.ReadLine());
-                        bool isContactAdded = repo.AddContact(newContact);
-                        break;
+                        list.Add(newContact);
+                        noOfContactAdded--;
+                }
+                noOfContactAdded = repo.AddMultipleContactsUsingThreads(list);
+                break;
                     case 6:
                         loop = 0;
                         break;

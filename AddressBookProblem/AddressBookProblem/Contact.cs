@@ -14,5 +14,6 @@ namespace AddressBookProblem
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
         public string RelationType { get; set; }
+        public DateTime DateAdded { get; internal set; }
     }
 }
