@@ -30,6 +30,13 @@ namespace AddressBookProblem
                         repo.UpdateContact(contact);
                         break;
                     case 3:
+                        Console.WriteLine("Enter Start date");
+                        DateTime startDate = Convert.ToDateTime(Console.ReadLine());
+                        Console.WriteLine("Enter End date");
+                        DateTime endDate = Convert.ToDateTime(Console.ReadLine());
+                        int contactsDeleted = repo.DeleteContactsAddedInADateRange(startDate.ToString("yyyy-MM-dd"), endDate.ToString("yyyy-MM-dd"));
+                        break;
+                    case 4:
                         loop = 0;
                         break;
                 }
