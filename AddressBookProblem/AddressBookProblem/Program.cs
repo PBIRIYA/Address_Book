@@ -18,6 +18,18 @@ namespace AddressBookProblem
                         repo.GetAllContacts();
                         break;
                     case 2:
+                        Contact contact = new Contact();
+                        Console.WriteLine("Enter FirstName");
+                        contact.FirstName = Console.ReadLine();
+                        Console.WriteLine("Enter LastName");
+                        contact.LastName = Console.ReadLine();
+                        Console.WriteLine("Enter PhoneNumber");
+                        contact.PhoneNumber = Console.ReadLine();
+                        Console.WriteLine("Enter Email");
+                        contact.Email = Console.ReadLine();
+                        repo.UpdateContact(contact);
+                        break;
+                    case 3:
                         loop = 0;
                         break;
                 }
