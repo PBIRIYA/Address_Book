@@ -1,0 +1,11 @@
+D:\AddressBookProblem\AddressBookProblem\AddressBookProblem\bin\Debug\netcoreapp3.1\AddressBookProblem.exe
+D:\AddressBookProblem\AddressBookProblem\AddressBookProblem\obj\Debug\netcoreapp3.1\AddressBookProblem.csprojAssemblyReference.cache
+D:\AddressBookProblem\AddressBookProblem\AddressBookProblem\obj\Debug\netcoreapp3.1\AddressBookProblem.AssemblyInfoInputs.cache
+D:\AddressBookProblem\AddressBookProblem\AddressBookProblem\obj\Debug\netcoreapp3.1\AddressBookProblem.AssemblyInfo.cs
+D:\AddressBookProblem\AddressBookProblem\AddressBookProblem\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\AddressBookProblem\AddressBookProblem\AddressBookProblem\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\AddressBookProblem\AddressBookProblem\AddressBookProblem\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\AddressBookProblem\AddressBookProblem\AddressBookProblem\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\AddressBookProblem\AddressBookProblem\AddressBookProblem\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AddressBookProblem\AddressBookProblem\AddressBookProblem\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AddressBookProblem\AddressBookProblem\AddressBookProblem\obj\Debug\netcoreapp3.1\AddressBookProblem.csproj.CopyComplete
