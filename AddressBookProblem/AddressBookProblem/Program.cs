@@ -44,6 +44,31 @@ namespace AddressBookProblem
                         repo.RetrieveContactByCityOrState(city, state);
                         break;
                     case 5:
+                        Contact newContact = new Contact();
+                        Console.WriteLine("Enter the person details to be added in the address book");
+                        Console.WriteLine("First Name");
+                        newContact.FirstName = Console.ReadLine();
+                        Console.WriteLine("Last Name");
+                        newContact.LastName = Console.ReadLine();
+                        Console.WriteLine("Address");
+                        newContact.Address = Console.ReadLine();
+                        Console.WriteLine("City");
+                        newContact.City = Console.ReadLine();
+                        Console.WriteLine("State");
+                        newContact.State = Console.ReadLine();
+                        Console.WriteLine("Zip code");
+                        newContact.Zipcode = Console.ReadLine();
+                        Console.WriteLine("Phone Number");
+                        newContact.PhoneNumber = Console.ReadLine();
+                        Console.WriteLine("Email");
+                        newContact.Email = Console.ReadLine();
+                        Console.WriteLine("ContactType");
+                        newContact.RelationType = Console.ReadLine();
+                        Console.WriteLine("Date added");
+                        newContact.DateAdded = Convert.ToDateTime(Console.ReadLine());
+                        bool isContactAdded = repo.AddContact(newContact);
+                        break;
+                    case 6:
                         loop = 0;
                         break;
                 }
