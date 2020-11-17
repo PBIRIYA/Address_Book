@@ -9,6 +9,21 @@
 "id": 2,
 "Name": "Aditya",
 "Address": "Vizag"
-}
-]
+},
+{
+      "Name": "Chopper",
+      "Address": "Pipariya",
+      "id": 4
+    },
+    {
+      "Name": "John",
+      "Address": "California",
+      "id": 5
+    },
+    {
+      "Name": "Divya",
+      "Address": "Allahabad",
+      "id": 6
+    }
+  ]
 }
